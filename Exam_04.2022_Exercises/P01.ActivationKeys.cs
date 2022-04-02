@@ -27,7 +27,6 @@ namespace P01.ActivationKeys
                     {
                         Console.WriteLine("Substring not found!");
                     }
-
                 }
                 else if (command == "Flip")
                 {
@@ -49,7 +48,6 @@ namespace P01.ActivationKeys
                         key = key.Insert(startIndex, current);
                         Console.WriteLine(key);
                     }
-
                 }
                 else if (command == "Slice")
                 {
@@ -67,7 +65,6 @@ namespace P01.ActivationKeys
             }
 
             Console.WriteLine($"Your activation key is: {key}");
-
         }
     }
 }
